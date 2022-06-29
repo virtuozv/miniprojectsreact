@@ -1,0 +1,1 @@
+Hello! Here some mini projects. Project #1 is non-react project. Keep calm and programme! :P

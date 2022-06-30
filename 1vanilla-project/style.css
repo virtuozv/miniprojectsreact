@@ -19,8 +19,9 @@ body {
 
 .navbar-container {
     display: flex;
-    margin: 0 50px;
+    padding: 0 50px;
     align-items: center;
+    padding-bottom: 10px;
 }
 
 .logo-container {
@@ -115,6 +116,7 @@ body {
     /* right: 1px; */
     cursor: pointer;
     border-radius: 50%;
+    transition: all 0.5s ease-in-out;
 }
 
 .left-menu-icon {
@@ -260,3 +262,41 @@ body {
     opacity: .5;
 }
 
+.container.active {
+    background-color: white;
+}
+
+.movie-list-title.active {
+    color: black;
+}
+
+.navbar-container.active {
+    background-color: white;
+    color: black;
+}
+
+.sidebar.active {
+    background-color: #fff;
+}
+
+.left-menu-icon.active {
+    color: black;
+}
+
+.toggle.active {
+    background-color: black;
+}
+
+.toggle-ball.active {
+    background-color: white;
+    transform: translateX(-20px);
+    /* left: 1px; */
+}
+
+.profile-container.active {
+    color: black;
+}
+
+.menu-container.active {
+    color: black;
+}

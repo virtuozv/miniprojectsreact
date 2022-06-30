@@ -14,3 +14,13 @@ arrows.forEach((arrow, i) => {
         }
     })
 })
+
+const ball = document.querySelector(".toggle-ball");
+
+const items = document.querySelectorAll(".container, .movie-list-title, .navbar-container, .sidebar, .left-menu-icon, .toggle, .toggle-ball, .profile-container, .menu-container");
+
+ball.addEventListener("click", () => {
+    items.forEach((item) => {
+        item.classList.toggle("active");
+    })
+})

@@ -300,3 +300,9 @@ body {
 .menu-container.active {
     color: black;
 }
+
+@media only screen and (max-width:940px) {
+    .menu-container {
+        display: none;
+    }
+}

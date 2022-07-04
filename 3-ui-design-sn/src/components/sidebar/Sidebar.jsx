@@ -102,7 +102,7 @@ const Sidebar = () => {
               src="/assets/person/7.jpeg"
               alt=""
             />
-            <span className="sidebarFriendName">Raymond Jondormandissimo</span>
+            <span className="sidebarFriendName">Raymond Jondor</span>
           </li>
         </ul>
       </div>

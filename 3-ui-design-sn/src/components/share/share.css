@@ -1,0 +1,70 @@
+.shareContainer {
+    display: flex;
+    flex-direction: column;
+    height: 210px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    justify-content: center;
+}
+
+.shareContainerInput {
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    height: 50px;
+    font-size: 18px;
+    width: 80%;
+}
+
+.shareBlock {
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.shareIcons {
+    padding: 25px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.shareImg {
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+hr {
+    margin: 0 50px;
+}
+
+.shareButton {
+    border: none;
+    padding: 10px;
+    background-color: green;
+    border-radius: 10px 15px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.shareList {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    margin: 0px 30px;
+}
+
+.shareIcons {
+    justify-content: space-between;
+    width: 90%;
+}
+
+.shareListItem {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    cursor: pointer;
+}

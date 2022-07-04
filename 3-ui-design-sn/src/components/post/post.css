@@ -17,7 +17,7 @@
 .postInformation {
     display: flex;
     align-items: center;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     justify-content: space-between;
 }
 
@@ -46,12 +46,12 @@
 .postTitle {
     font-weight: bold;
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
 
 
 .postContent {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .postImage {

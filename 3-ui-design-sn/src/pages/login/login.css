@@ -1,0 +1,71 @@
+.containerLogin {
+    background-color: #f6f5f8;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.mainTitle {
+    color: rgb(106, 106, 255);
+    font-size: 50px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.descTitle {
+    font-weight: 400;
+}
+
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 15px;
+    gap: 11px;
+    width: 300px;
+}
+
+.createButton {
+    border-radius: 10px;
+    background-color: limegreen;
+    outline: none;
+    color: white;
+    border: none;
+    padding: 15px 5px;
+    font-size: 18px;
+    width: 310px;
+    cursor: pointer;
+}
+
+.logButton {
+    border-radius: 10px;
+    background-color: rgb(80, 80, 255);
+    outline: none;
+    color: white;
+    border: none;
+    padding:15px 5px;
+    font-size: 18px;
+    width: 310px;
+    cursor: pointer;
+}
+
+.linkPass {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.formInput {
+    height: 40px;
+    width:  100%;
+    outline: none;
+    border: 1px gray solid;
+    border-radius: 5px;
+    font-size: 18px;
+    padding-left: 10px;
+}
